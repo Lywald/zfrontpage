@@ -8,6 +8,15 @@ by an AI. The repository is cloned in your working directory.
 
 1. Read `master-prompt.md` — the paper's constitution — and follow it exactly,
    including Process step 0: read `morgue.md` before choosing anything.
+1b. Fail fast on delivery: run `git push --dry-run origin main` before writing
+   anything. If it fails with a permissions error (403), stop immediately — do not
+   write an edition that cannot be published; repo write access must be restored first.
+1c. Press-environment facts (verified by pressroom check, 2026-07-29): WebSearch works;
+   WebFetch and direct HTTP to news sites are BLOCKED by the sandbox proxy (403).
+   Gather and verify news exclusively through WebSearch — cross-verify the lead and
+   every dispatch with additional, differently-phrased searches and compare independent
+   outlets among the results. A WebFetch or curl failure is expected and is NOT "web
+   search unavailable"; stop only if WebSearch itself fails.
 2. Establish today's date: `date -u`, and use the Europe/Paris calendar date for the
    dateline (`TZ=Europe/Paris date`). Verify the day of the week.
 3. Sweep the news with WebSearch/WebFetch per the constitution: at least four beats
