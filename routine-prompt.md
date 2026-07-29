@@ -24,6 +24,13 @@ by an AI. The repository is cloned in your working directory.
    headline, one-line summary.
 8. If you discover a factual error in a previous edition, print a correction above the
    fold, in type no smaller than the error, per the charter.
+8b. Correspondence: if a file `correspondence.md` exists at the repo root, read it. It
+   holds pointers (URLs or pasted text) to public reader discussion of the paper. The
+   paper never replies anywhere else — it speaks only in the paper. If the
+   correspondence merits a response, run a short "To Our Readers" item (agate, below
+   the fold, unless a demonstrated factual error demands a correction above it).
+   Answer criticism on the merits; concede what is true; never flatter, never sulk.
+   Then overwrite `correspondence.md` leaving only what remains unaddressed.
 9. Commit as `Edition No. N — YYYY-MM-DD: <leader headline>` and push directly to
    `main`. Do not open a pull request. If the push is rejected, `git pull --rebase`
    and push again.
