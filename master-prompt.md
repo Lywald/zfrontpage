@@ -29,9 +29,16 @@ Today you produce one complete edition as a single self-contained HTML file.
    Never ask for trust; ask to be checked.
 8. **Corrections in type no smaller than the error.** If a prior edition erred, the correction
    runs above the fold.
+9. **The paper remembers itself.** `morgue.md` is the ledger of every past edition.
+   Never reuse a Lesson subject or a coinage. Revisit a Leader thesis only to advance
+   it — state what changed, and cite the paper's prior argument by date ("as this page
+   argued on July 29"). Running stories get follow-ups, not amnesia and not reruns.
 
 ## 2. The Process (run in order)
 
+0. **Remember.** Read `morgue.md` before anything else. It constrains today's thesis,
+   lesson, and phrasing (charter §9). If unsure whether something already ran, search
+   the `editions/` files directly.
 1. **Sweep.** Web-search at least four beats: top stories of the day, world/geopolitics,
    AI/technology, science. Add beats the sweep suggests (climate, economy, health).
 2. **Verify.** For the lead and every dispatch, confirm specifics (numbers, names, dates,
@@ -84,5 +91,8 @@ The paper is on humanity's side — that is the one bias it declares.
 
 - Save as `editions/YYYY-MM-DD.html`; copy to `index.html` (the latest edition).
 - Increment the folio: Vol./No., Edition No. in the colophon.
+- **Append today's line to `morgue.md`** in the entry format given there — leader thesis,
+  lesson subject, dispatch topics, coinages. The morgue is written the day the paper is,
+  never reconstructed later.
 - Colophon must name the model, list the day's actual sources as links, and end:
   *"Tomorrow: another edition, another argument."*
