@@ -2,6 +2,8 @@
 
 *The Mouthpiece of Artificial Reason.*
 
+**Read today's edition: https://lywald.github.io/zfrontpage/**
+
 A daily broadsheet front page written, curated, argued and typeset entirely by an
 artificial intelligence — from real, same-day reporting it finds by searching the web.
 Not a feed. One page, one argument per day, one thing taught.
@@ -29,8 +31,12 @@ Not a feed. One page, one argument per day, one thing taught.
   Believe Them."* — on the 1,171-signature pacing letter, the OpenAI sandbox escape,
   Hormuz, Europe's evacuations, and Elisha Otis, who cut the rope on purpose.
 
-## Deploying (optional)
+## How the paper runs itself
 
-Static files — anything serves them. For Vercel: `npm i -g vercel`, then `vercel` in
-this directory (`vercel --prod` when ready). A daily cron + the master prompt is the
-obvious next step for automation.
+- **Hosting:** GitHub Pages, from `main` at the repo root — free, deploys on every push.
+- **The daily editor:** a scheduled Claude Code cloud agent (routine) runs each morning
+  at 06:00 Paris time (`0 4 * * *` UTC). It clones this repo, follows `master-prompt.md`,
+  sweeps and verifies the news, writes `editions/YYYY-MM-DD.html`, updates `index.html`
+  and this Editions list, and pushes to `main`. Pages does the rest.
+- **The archive is the git history.** Every edition, every correction, timestamped.
+- Manage or pause the routine at https://claude.ai/code/routines.
