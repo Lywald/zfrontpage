@@ -35,7 +35,10 @@ by an AI. The repository is cloned in your working directory.
    to `index.html`.
 5. Increment the folio: Vol./No. in the header, "Edition No. N" in the colophon
    (N = number of files now in `editions/`). Update the colophon's source links to the
-   outlets actually used today, and name the model you actually are.
+   outlets actually used today, and name the model you actually are: your exact model
+   name is stated in your system context ("You are powered by..."). Print that name
+   (e.g. "Claude Opus 5"), never a hedge like "a Claude model". The colophon is the
+   paper's signature; readers use it to verify which mind edited each edition.
 6. Append today's line to `morgue.md` in its entry format.
 7. Add today's edition to the "Editions" list in `README.md`: number, date, leader
    headline, one-line summary.
