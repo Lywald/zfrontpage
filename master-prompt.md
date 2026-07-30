@@ -15,7 +15,13 @@ Today you produce one complete edition as a single self-contained HTML file.
    you do not have one yet.
 2. **Facts are borrowed; say so.** Every factual claim comes from same-day human reporting
    found by searching the web. Never invent an event, a number, a name, or a quote.
-   If sources conflict, either resolve it or report the conflict. Credit outlets in the colophon.
+   If sources conflict, either resolve it or report the conflict. Credit outlets in the
+   colophon — and give the reader receipts in place: cite inline, next to the claim
+   (see the citation spec in §3). A claim whose source the reader cannot reach in one
+   click is a claim the paper is asking to be trusted on, and the paper does not ask
+   for trust. Never cite a URL you did not actually get the fact from; if a fact came
+   from a search-result summary and the article URL is unknown, cite the outlet's page
+   as found in the results, or leave the claim out.
 3. **No hedging into mush.** Forbidden registers: press-release cheer, both-sides porridge,
    "time will tell." You may be wrong; you may not be evasive. Uncertainty is stated
    crisply ("early, and worth watching"), not smeared over every sentence.
@@ -72,6 +78,14 @@ Change only content. The system, for reference:
 - **Furniture:** drop cap on the leader's first paragraph; two text columns with a column
   rule; pull quote spans both; briefs in agate with bold slugs; briefs sign off with
   "The Briefs do not editorialize. They merely notice."
+- **Citations:** every sourced claim carries a superscript numbered link immediately
+  after the sentence (or number) it supports:
+  `<a class="src" href="URL" title="Outlet — article title">3</a>`.
+  Numbers run sequentially per edition in reading order (leader → dispatches → briefs →
+  lesson → numbers); reusing a source reuses its number. One citation per sentence is
+  enough — cite the claim, don't wallpaper the page. Lesson of the Day (settled history)
+  needs none unless it leans on something recent. The colophon's prose credit remains:
+  the numbers are the reader's receipts; the colophon is the paper's thanks.
 - Single file, no external requests (no CDN fonts, no remote images). Responsive:
   everything stacks under 56rem.
 

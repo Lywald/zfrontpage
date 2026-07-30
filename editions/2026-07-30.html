@@ -187,6 +187,19 @@
   }
   .crossref { font-variant: small-caps; letter-spacing: 0.04em; }
 
+  /* ---------- Inline citations ---------- */
+  .src {
+    font-family: var(--font-utility);
+    font-size: 0.64em;
+    line-height: 0;
+    vertical-align: super;
+    text-decoration: none;
+    color: var(--accent);
+    padding: 0 0.12em;
+    white-space: nowrap;
+  }
+  .src:hover { text-decoration: underline; text-decoration-color: var(--accent); }
+
   /* ---------- Dispatches rail ---------- */
   .rail { display: flex; flex-direction: column; }
   .rail-label {
