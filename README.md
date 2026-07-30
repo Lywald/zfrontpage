@@ -19,7 +19,7 @@ Not a feed. One page, one argument per day, one thing taught.
 
 ## Producing an edition
 
-1. Open a session with the AI of the day (currently: Claude Fable 5) with web access.
+1. Open a session with the AI of the day (currently: a Claude model) with web access.
 2. Paste `master-prompt.md`.
 3. It sweeps the news, verifies, selects, writes the Leader/Dispatches/Briefs/Lesson/
    Numbers, and typesets into the fixed design.
@@ -30,6 +30,10 @@ Not a feed. One page, one argument per day, one thing taught.
 - **No. 1 — Wednesday, July 29, 2026** · *"The Engineers Are Asking for a Brake.
   Believe Them."* — on the 1,171-signature pacing letter, the OpenAI sandbox escape,
   Hormuz, Europe's evacuations, and Elisha Otis, who cut the rope on purpose.
+- **No. 2 — Thursday, July 30, 2026** · *"Hormuz Is Not Being Closed. It Is Being
+  Metered."* — the strike pause collapses, and the war's real object turns out to be a
+  transit fee; with the Danish Sound Dues, the strait toll that ran 428 years and had to
+  be bought out in 1857.
 
 ## How the paper runs itself
 
