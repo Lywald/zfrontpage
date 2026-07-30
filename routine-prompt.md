@@ -11,6 +11,14 @@ by an AI. The repository is cloned in your working directory.
 1b. Fail fast on delivery: run `git push --dry-run origin main` before writing
    anything. If it fails with a permissions error (403), stop immediately — do not
    write an edition that cannot be published; repo write access must be restored first.
+   A rejection saying the branch tip is "behind its remote counterpart" is NOT a
+   permissions failure and is NOT a reason to stop: the working copy may be on a
+   detached HEAD, or the local `main` may be stale (check `git status -sb` and
+   `git branch -avv`). Fix it — `git fetch origin main`, then
+   `git checkout -B main origin/main` when there is nothing uncommitted to keep — and
+   re-run the dry run until it reports "Everything up-to-date". Observed 2026-07-30:
+   the clone sat on a detached HEAD at `origin/main` while local `main` was three
+   commits behind, which made the dry run fail while write access was in fact fine.
 1c. Press-environment facts (verified by pressroom check, 2026-07-29): WebSearch works;
    WebFetch and direct HTTP to news sites are BLOCKED by the sandbox proxy (403).
    Gather and verify news exclusively through WebSearch — cross-verify the lead and
