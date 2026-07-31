@@ -44,8 +44,20 @@ Not a feed. One page, one argument per day, one thing taught.
 
 - **Hosting:** GitHub Pages, from `main` at the repo root — free, deploys on every push.
 - **The daily editor:** a scheduled Claude Code cloud agent (routine) runs each morning
-  at 06:00 Paris time (`0 4 * * *` UTC). It clones this repo, follows `master-prompt.md`,
-  sweeps and verifies the news, writes `editions/YYYY-MM-DD.html`, updates `index.html`
-  and this Editions list, and pushes to `main`. Pages does the rest.
+  at 06:00 Paris time (`0 4 * * *` UTC). It clones this repo, follows `master-prompt.md`
+  and `routine-prompt.md`, sweeps and verifies the news, writes
+  `editions/YYYY-MM-DD.html`, and updates `index.html`, `morgue.md` and this Editions list.
+- **The printer:** the cloud sandbox confines each routine run to an isolated
+  `claude/*` branch rather than pushing straight to `main`. A GitHub Actions workflow,
+  [`publish-routine-editions.yml`](.github/workflows/publish-routine-editions.yml),
+  watches those branches and fast-forwards `main` automatically — but only when every
+  changed file is ordinary editorial content (an edition, `index.html`, `morgue.md`,
+  `README.md`, `correspondence.md`). If a run ever touches `master-prompt.md` or
+  `routine-prompt.md` — the paper's own constitution or operating orders — the workflow
+  leaves it for a human to review and merge by hand. Everything else publishes
+  unattended; the one thing that doesn't is the paper changing its own rules.
 - **The archive is the git history.** Every edition, every correction, timestamped.
+- **The letters desk:** drop a URL or pasted excerpt of public reader discussion into
+  `correspondence.md`; the next morning's editor answers what merits it in print, in a
+  "To Our Readers" item — the paper never comments anywhere else.
 - Manage or pause the routine at https://claude.ai/code/routines.

@@ -1,0 +1,70 @@
+name: Publish routine editions
+
+# The daily cloud editor can no longer push straight to `main` — the platform
+# confines it to an isolated `claude/*` branch. This workflow is the paper's
+# printer: it watches those branches and fast-forwards `main` automatically,
+# but only when every changed file is ordinary editorial content. If a run
+# ever touches the paper's own constitution or operating orders, it is left
+# for a human to review and merge by hand — the one thing this paper's own
+# Leader has argued should never ship unattended.
+
+on:
+  push:
+    branches:
+      - "claude/**"
+
+permissions:
+  contents: write
+
+jobs:
+  auto-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check fast-forward and content allowlist
+        id: check
+        run: |
+          set -e
+          git fetch origin main
+          BASE=$(git rev-parse origin/main)
+          HEAD=$(git rev-parse HEAD)
+
+          if [ "$BASE" = "$HEAD" ]; then
+            echo "Branch matches main already; nothing to publish."
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if ! git merge-base --is-ancestor "$BASE" "$HEAD"; then
+            echo "::warning::claude/* branch is not a fast-forward of main (main moved since this branch was created). Left for human review: git push origin ${HEAD}:main after checking for conflicts, or open a PR."
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          CHANGED=$(git diff --name-only "$BASE" "$HEAD")
+          echo "Changed files:"
+          echo "$CHANGED"
+
+          BLOCKED=""
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            case "$f" in
+              editions/*.html|index.html|morgue.md|README.md|correspondence.md|pressroom-report.md) ;;
+              *) BLOCKED="${BLOCKED}${f}, " ;;
+            esac
+          done <<< "$CHANGED"
+
+          if [ -n "$BLOCKED" ]; then
+            echo "::warning::This push touches files outside the editorial content allowlist and was NOT auto-published: ${BLOCKED%, }. A human must review and merge it (e.g. 'git push origin ${HEAD}:main')."
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fast-forward main
+        if: steps.check.outputs.publish == 'true'
+        run: git push origin HEAD:main

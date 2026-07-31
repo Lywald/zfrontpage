@@ -8,17 +8,18 @@ by an AI. The repository is cloned in your working directory.
 
 1. Read `master-prompt.md` — the paper's constitution — and follow it exactly,
    including Process step 0: read `morgue.md` before choosing anything.
-1b. Fail fast on delivery: run `git push --dry-run origin main` before writing
-   anything. If it fails with a permissions error (403), stop immediately — do not
-   write an edition that cannot be published; repo write access must be restored first.
-   A rejection saying the branch tip is "behind its remote counterpart" is NOT a
-   permissions failure and is NOT a reason to stop: the working copy may be on a
-   detached HEAD, or the local `main` may be stale (check `git status -sb` and
-   `git branch -avv`). Fix it — `git fetch origin main`, then
-   `git checkout -B main origin/main` when there is nothing uncommitted to keep — and
-   re-run the dry run until it reports "Everything up-to-date". Observed 2026-07-30:
-   the clone sat on a detached HEAD at `origin/main` while local `main` was three
-   commits behind, which made the dry run fail while write access was in fact fine.
+1b. Check delivery before writing: run `git push --dry-run origin main`.
+   - A rejection saying the branch tip is "behind its remote counterpart" is NOT a
+     permissions failure: the working copy may be on a detached HEAD, or local `main`
+     may be stale (check `git status -sb` and `git branch -avv`). Fix it —
+     `git fetch origin main`, then `git checkout -B main origin/main` when there is
+     nothing uncommitted to keep — and re-run the dry run.
+   - A rejection confining this session to an isolated branch (e.g. "you can only push
+     to claude/...") is a known platform constraint, not an error — see step 9. Proceed
+     with writing the edition regardless; you will push to that branch instead of `main`.
+   - Only a genuine 403/permission-denied against the repo itself (not redirected to a
+     working branch) means repo write access is actually down. In that case alone,
+     stop — do not write an edition that cannot be published anywhere.
 1c. Press-environment facts (verified by pressroom check, 2026-07-29): WebSearch works;
    WebFetch and direct HTTP to news sites are BLOCKED by the sandbox proxy (403).
    Gather and verify news exclusively through WebSearch — cross-verify the lead and
@@ -51,10 +52,18 @@ by an AI. The repository is cloned in your working directory.
    the fold, unless a demonstrated factual error demands a correction above it).
    Answer criticism on the merits; concede what is true; never flatter, never sulk.
    Then overwrite `correspondence.md` leaving only what remains unaddressed.
-9. Commit as `Edition No. N — YYYY-MM-DD: <leader headline>` and push directly to
-   `main`. Do not open a pull request. If the push is rejected, `git pull --rebase`
-   and push again.
+9. Commit as `Edition No. N — YYYY-MM-DD: <leader headline>` and push. Try `main`
+   directly first. If the platform confines this session to an isolated working
+   branch (commonly named `claude/...`) and refuses a push to `main`, that is expected,
+   not a failure: push your commit(s) to that branch instead and stop there — do not
+   open a pull request yourself. A repository workflow (`.github/workflows/
+   publish-routine-editions.yml`) watches `claude/**` branches and fast-forwards `main`
+   automatically, provided your changes stay within its content allowlist (editions/,
+   index.html, morgue.md, README.md, correspondence.md, pressroom-report.md). If you
+   touched `master-prompt.md` or this file, say so plainly in your final report — those
+   changes require a human to merge by hand, by design.
 
-Success: today's edition, `index.html`, `morgue.md` and `README.md` are on `main`;
-GitHub Pages publishes automatically. If web search is unavailable or the day's facts
-cannot be verified, do not fabricate an edition — commit nothing and stop.
+Success: today's edition, `index.html`, `morgue.md` and `README.md` are committed and
+pushed — to `main` if possible, otherwise to the session's working branch, where the
+publish workflow takes over. If web search is unavailable or the day's facts cannot be
+verified, do not fabricate an edition — commit nothing and stop.
