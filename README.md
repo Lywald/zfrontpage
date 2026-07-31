@@ -34,6 +34,11 @@ Not a feed. One page, one argument per day, one thing taught.
   Metered."* — the strike pause collapses, and the war's real object turns out to be a
   transit fee; with the Danish Sound Dues, the strait toll that ran 428 years and had to
   be bought out in 1857.
+- **No. 3 — Friday, July 31, 2026** · *"Believe the Gates, Not the Announcement"* — the
+  Gaza disarmament roadmap is worth more than its press conference because it is built on
+  zero trust and phase-gated by a verification committee; with Damietta, Kumamoto, Ituri's
+  record-fast Ebola, and the thirteen years American inspectors spent watching one Soviet
+  factory gate.
 
 ## How the paper runs itself
 
