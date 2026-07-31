@@ -172,11 +172,16 @@ publish that.
   Two ways that stalls: your branch isn't a fast-forward of `main` (you committed
   something yourself mid-run), or the branch name doesn't match the pattern. Both leave a
   warning on the Actions run and nothing on the site. Look there first.
-- **The allowlist is the whole safety design.** Only `editions/*.html`, `index.html`,
-  `morgue.md`, `README.md`, `correspondence.md`, and `pressroom-report.md` auto-publish.
-  Add a file your paper writes daily and it will quietly stop publishing until you add it
-  too. Add `master-prompt.md` and you have deleted the only thing standing between your
-  paper and a machine that rewrites its own charter overnight. Don't.
+- **The workflow's allowlist decides what publishes.** Each morning the editor pushes to a
+  temporary `claude/*` branch, and the workflow checks every file that run changed. If all
+  of them are on the allowlist — `editions/*.html`, `index.html`, `morgue.md`, `README.md`,
+  `correspondence.md`, `pressroom-report.md` — it fast-forwards `main` and the site updates.
+  If even one file isn't, **nothing publishes**, the edition included, and the run leaves a
+  warning in the Actions tab.
+  The list has to be right in both directions. Too short: teach your paper to write some new
+  file daily, forget to list it, and the whole paper goes quiet for no visible reason. Too
+  long: add `master-prompt.md` and the editor can rewrite its own charter overnight and
+  publish the new one before you read it. That file is left off on purpose.
 - **The press room has no WebFetch.** In the cloud sandbox, `WebSearch` works and direct
   HTTP to news sites is blocked. `routine-prompt.md` already says so; keep that note alive
   in your rewrite, or your editor will read a 403 as "the news is unavailable" and file
