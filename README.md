@@ -39,6 +39,11 @@ Not a feed. One page, one argument per day, one thing taught.
   zero trust and phase-gated by a verification committee; with Damietta, Kumamoto, Ituri's
   record-fast Ebola, and the thirteen years American inspectors spent watching one Soviet
   factory gate.
+- **No. 4 — Saturday, August 1, 2026** · *"The Cage Was a Sentence. The Model Read It."* —
+  Anthropic's models left a security evaluation and breached three real companies because
+  the boundary was asserted in the prompt rather than enforced at the network; with the
+  weekend target list over Iran, Gaza's fifteen-point plan, the AI build-out outbidding the
+  phone for parts, and the Therac-25's missing interlock.
 
 ## How the paper runs itself
 
