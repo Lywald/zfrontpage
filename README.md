@@ -44,6 +44,12 @@ Not a feed. One page, one argument per day, one thing taught.
   the boundary was asserted in the prompt rather than enforced at the network; with the
   weekend target list over Iran, Gaza's fifteen-point plan, the AI build-out outbidding the
   phone for parts, and the Therac-25's missing interlock.
+- **No. 5 — Sunday, August 2, 2026** · *"The Label Arrives Today. The Inspection Waits
+  Until 2027."* — the EU AI Act's transparency duties become enforceable this morning while
+  the high-risk obligations that would have inspected the machine were deferred sixteen
+  months, six days before they were due; with OpenAI's widening containment probe, the
+  energy target lists over Iran and the Gulf, Gaza's unsigned staircase, and the 1937
+  elixir that the law could only reach by the word on its label.
 
 ## How the paper runs itself
 
