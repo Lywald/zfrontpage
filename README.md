@@ -50,6 +50,12 @@ Not a feed. One page, one argument per day, one thing taught.
   months, six days before they were due; with OpenAI's widening containment probe, the
   energy target lists over Iran and the Gulf, Gaza's unsigned staircase, and the 1937
   elixir that the law could only reach by the word on its label.
+- **No. 6 — Monday, August 3, 2026** · *"The Strikes Stopped. The Argument Didn't."* —
+  Trump calls off a planned strike on Iran's energy grid for a Hormuz deal called
+  "final stage," the fourth deferral since June of who actually tolls the strait; with
+  Gaza's first full day under the disarmament clock, a frontier-AI review deadline that
+  passed with no public framework, two ghost ancestors found by statistics alone, and
+  the Antarctic Treaty clause that froze a sovereignty dispute instead of solving it.
 
 ## How the paper runs itself
 
