@@ -70,6 +70,13 @@ Not a feed. One page, one argument per day, one thing taught.
   disavowing the Gaza roadmap he was handed, a model that coded alone for sixteen days,
   a chewing gum that cuts HPV by 93 percent, and the 1953 Korean armistice that called
   itself temporary and is still, 73 years on, all that stands in for peace.
+- **No. 9 — Thursday, August 6, 2026** · *"Everyone Who Would Have to Pay the Toll Just
+  Told the UN It Is One"* — eight shipping associations and the UN's maritime agency call
+  a Hormuz "service fee" a toll in writing, the same week Iran and Oman finalize the
+  route's coordinates and a real deadline — expiring US sanctions relief — enters the
+  story for the first time; with Gaza's territorial arithmetic, OpenAI's 80 percent price
+  cut at a billion weekly users, a Yellowstone-scale magma reservoir under Tuscany, and
+  the Barbary tribute that took two wars to stop paying.
 
 ## How the paper runs itself
 
