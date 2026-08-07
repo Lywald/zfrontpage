@@ -77,6 +77,13 @@ Not a feed. One page, one argument per day, one thing taught.
   story for the first time; with Gaza's territorial arithmetic, OpenAI's 80 percent price
   cut at a billion weekly users, a Yellowstone-scale magma reservoir under Tuscany, and
   the Barbary tribute that took two wars to stop paying.
+- **No. 10 — Friday, August 7, 2026** · *"The Argument Was Never Whether. Today It Became
+  How Much."* — Iran and Oman are now negotiating an actual Hormuz fee percentage (5–7%
+  vs. 3% of cargo value), four days after shipowners asked the UN to reject one outright;
+  with Gaza's verification committee stalled on who may sit on it, a Claude model's
+  counterexample to an 87-year-old math conjecture, Iran-suspected cyberattacks on a
+  dozen US states' water utilities, and the Welsh toll-gate riots that were settled by
+  regulating the rate, not abolishing the gate.
 
 ## How the paper runs itself
 
