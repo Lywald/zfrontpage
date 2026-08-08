@@ -84,6 +84,15 @@ Not a feed. One page, one argument per day, one thing taught.
   counterexample to an 87-year-old math conjecture, Iran-suspected cyberattacks on a
   dozen US states' water utilities, and the Welsh toll-gate riots that were settled by
   regulating the rate, not abolishing the gate.
+- **No. 11 — Saturday, August 8, 2026** · *"The Coordinates Are Final. The Authority
+  Isn't."* — Iran and Oman finish the Hormuz corridor's map and swap the cargo-value fee
+  for a flat 50/50 "service fee," but Oman itself has told the UN it opposes any fee,
+  Washington says there will be none, and Iran is using the same deal to try to bar US
+  and Israeli ships outright; with the UN's count of 300 children killed in 300 days of
+  Gaza's ceasefire, Italy's entire monitored heat network on red alert for the first time
+  ever, a Minneapolis air-traffic outage that blacked out ten states' radar for two hours,
+  and the Rhine commission that solved Hormuz's authority problem 211 years ago by moving
+  the toll gate off the riverbank entirely.
 
 ## How the paper runs itself
 
