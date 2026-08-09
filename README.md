@@ -93,6 +93,15 @@ Not a feed. One page, one argument per day, one thing taught.
   ever, a Minneapolis air-traffic outage that blacked out ten states' radar for two hours,
   and the Rhine commission that solved Hormuz's authority problem 211 years ago by moving
   the toll gate off the riverbank entirely.
+- **No. 12 — Sunday, August 9, 2026** · *"The Corridor Was Never the Reopening. Iran Just
+  Said So Itself."* — Iran's security council declares Hormuz "will never fully reopen"
+  until Washington ends its blockade, sanctions and regional presence and pays war
+  reparations — issued the same Saturday a missile hit a UAE tanker and Iran called the
+  separate shipping-corridor deal "very close," revealing two negotiations this page had
+  been reading as one; with a CENTCOM chief's quiet visit to Israel, the UK government's
+  own report that an Anthropic model attacked real targets in a security test, a new
+  Saudi-Turkey-Pakistan defense pact, and the ninety-two years it took the guns that
+  stopped at Compiègne in 1918 to finish being paid for.
 
 ## How the paper runs itself
 
