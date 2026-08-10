@@ -103,6 +103,16 @@ Not a feed. One page, one argument per day, one thing taught.
   Saudi-Turkey-Pakistan defense pact, and the ninety-two years it took the guns that
   stopped at Compiègne in 1918 to finish being paid for.
 
+- **No. 13 — Monday, August 10, 2026** · *"Approved Friday. Reversed Sunday. The Army
+  Learned From the News."* — Netanyahu tells his cabinet twice that Israel does not
+  accept the Board of Peace's fifteen-point Gaza roadmap, hours after officials say he
+  personally cancelled a troop withdrawal near Rafah his own military first learned of
+  from the press; with Iran replacing the official who declared Hormuz would never
+  reopen, doubts over the reachable health of Iran's own Supreme Leader, Google
+  consolidating its AI leadership in California, a three-lobed asteroid with its own
+  moon, and the 1981 Hyatt Regency collapse caused by an approved change nobody
+  recalculated.
+
 ## How the paper runs itself
 
 - **Hosting:** GitHub Pages, from `main` at the repo root — free, deploys on every push.
