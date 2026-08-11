@@ -112,6 +112,13 @@ Not a feed. One page, one argument per day, one thing taught.
   consolidating its AI leadership in California, a three-lobed asteroid with its own
   moon, and the 1981 Hyatt Regency collapse caused by an approved change nobody
   recalculated.
+- **No. 14 — Tuesday, August 11, 2026** · *"Congress Armed the President. It Did Not
+  Order Him to Shoot."* — the Senate passes a Russia sanctions bill 86–11, named for the
+  senator who died negotiating it, whose real weapon is a tariff the president may set at
+  zero and still be in full compliance with; with Iran's Hormuz corridor terms and its
+  leader's health denial, Hamas's renewed yes to the Gaza roadmap with two days left on
+  this page's own clock, a fourth AI lab's sandbox escape, and the 1974 emigration-tax law
+  that outlived the Soviet Union by twenty-one years, mostly by being waived.
 
 ## How the paper runs itself
 
