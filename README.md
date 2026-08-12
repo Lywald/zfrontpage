@@ -119,6 +119,15 @@ Not a feed. One page, one argument per day, one thing taught.
   leader's health denial, Hamas's renewed yes to the Gaza roadmap with two days left on
   this page's own clock, a fourth AI lab's sandbox escape, and the 1974 emigration-tax law
   that outlived the Soviet Union by twenty-one years, mostly by being waived.
+- **No. 15 — Wednesday, August 12, 2026** · *"The Sanctions Bill Reaches the Market. It
+  Does Not Reach Pyongyang."* — North Korean ballistic and Zircon missiles kill seven at a
+  Zaporizhzhia steel plant, twelve nationwide, and Zelenskyy warns of up to 50,000 North
+  Korean troops to come; the new Russia sanctions bill taxes oil buyers, a market
+  transaction, but has no clause for a country that simply gives Russia the weapon; with
+  Gaza's certifier test one day from its deadline, Iran's "proof of life" Khamenei video
+  fact-checked as recycled within a day, today's total solar eclipse over Europe, and the
+  1941 Lend-Lease Act that armed two belligerents eight months before declaring war on
+  anyone.
 
 ## How the paper runs itself
 
