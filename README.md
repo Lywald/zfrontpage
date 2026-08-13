@@ -128,6 +128,15 @@ Not a feed. One page, one argument per day, one thing taught.
   fact-checked as recycled within a day, today's total solar eclipse over Europe, and the
   1941 Lend-Lease Act that armed two belligerents eight months before declaring war on
   anyone.
+- **No. 16 — Thursday, August 13, 2026** · *"Total Control Was Declared. Eight Ships
+  Came."* — Trump claims "total control" of the Strait of Hormuz the same week tracked
+  transits hit a one-week low, a former State Department official says no one controls it,
+  and Lloyd's Market Association finds the shortfall is shipowners' own risk judgment, not
+  missing insurance; with Gaza's July 31 certifier test failing on its own deadline,
+  Anthropic's new Claude text watermark scoring the page's own Aug. 2 test against itself,
+  Ukraine's Black Sea tanker campaign stood down at Washington's request, and Napoleon's
+  Continental System, defeated not by an army but by what actually moved through Heligoland
+  and Salonika.
 
 ## How the paper runs itself
 
