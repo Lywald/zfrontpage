@@ -137,6 +137,13 @@ Not a feed. One page, one argument per day, one thing taught.
   Ukraine's Black Sea tanker campaign stood down at Washington's request, and Napoleon's
   Continental System, defeated not by an army but by what actually moved through Heligoland
   and Salonika.
+- **No. 17 — Friday, August 14, 2026** · *"The Word Was 'Indefinitely.' It Only Applied to
+  One of Them."* — the Pentagon says its Hormuz blockade can run indefinitely the same day
+  Israel says its Lebanon "security zone" will too, but Washington calls only the second one
+  a violation of the framework it brokered; with Gaza's certifier test lapsing into resumed
+  strikes, Anthropic's own Claude agents fighting a turf war inside a shared sandbox, a push
+  to pull Latin America out of the one court that could review US boat strikes, and the
+  Berlin Airlift that answered an undated blockade without ever signing a treaty about it.
 
 ## How the paper runs itself
 
