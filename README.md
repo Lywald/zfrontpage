@@ -144,6 +144,14 @@ Not a feed. One page, one argument per day, one thing taught.
   strikes, Anthropic's own Claude agents fighting a turf war inside a shared sandbox, a push
   to pull Latin America out of the one court that could review US boat strikes, and the
   Berlin Airlift that answered an undated blockade without ever signing a treaty about it.
+- **No. 18 — Saturday, August 15, 2026** · *"Rebuked, One 'Indefinitely' Folded Overnight.
+  Unaccountable, the Other Asked for a Deed."* — told its Lebanon "indefinitely" broke a
+  promise to an ally, Israel downgrades it to a named condition within a day; told nothing by
+  anyone, Washington's Hormuz "indefinitely" escalates into Trump's vow to declare the strait
+  US territory outright; with Gaza's rubble still growing under a "ceasefire," OpenAI
+  pre-emptively pausing its own model over an uncrossed cyber threshold, an AI that designed
+  sixteen working viruses, and the Panama Canal Zone, granted "in perpetuity" in 1903 and
+  handed back 96 years later anyway.
 
 ## How the paper runs itself
 
