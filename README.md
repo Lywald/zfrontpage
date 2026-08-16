@@ -152,6 +152,14 @@ Not a feed. One page, one argument per day, one thing taught.
   pre-emptively pausing its own model over an uncrossed cyber threshold, an AI that designed
   sixteen working viruses, and the Panama Canal Zone, granted "in perpetuity" in 1903 and
   handed back 96 years later anyway.
+- **No. 19 — Sunday, August 16, 2026** · *"Thursday Named a Condition. Saturday Showed Who
+  Judges It."* — the named condition Israel substituted for "indefinitely" in Lebanon two days
+  ago survives less than 48 hours before the deadliest strikes since June's truce (11 dead,
+  3 children) — Israel's own government calling the killing a way of "tightening" the talks;
+  with a US aircraft carrier relieved after 265 days at sea and reports of sailors trying to
+  go overboard, Google's encryption compiler that lets AI run on data it can never read, the
+  Amazon's quietest year of logging in over a decade, and the 1928 pact that renounced war
+  with no referee, and paid for it for eleven years before anyone was tried.
 
 ## How the paper runs itself
 
