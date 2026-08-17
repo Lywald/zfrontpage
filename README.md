@@ -160,6 +160,13 @@ Not a feed. One page, one argument per day, one thing taught.
   go overboard, Google's encryption compiler that lets AI run on data it can never read, the
   Amazon's quietest year of logging in over a decade, and the 1928 pact that renounced war
   with no referee, and paid for it for eleven years before anyone was tried.
+- **No. 20 — Monday, August 17, 2026** · *"Washington Says the Clock Expired. Tehran Says
+  There Was No Clock."* — the Islamabad Memorandum's 60-day window lapses with no successor
+  text; Washington treats it as expired and reaches for an "economic isolation" package,
+  Iran's foreign minister denies a 60-day ceasefire ever existed to expire; with the
+  deadliest Lebanon strikes' commanders now named, DARPA's AI-piloted F-16 flown behind a
+  physical hand-off switch, and the Treaty of Waitangi, whose two signed texts took a
+  tribunal 135 years to even begin reconciling.
 
 ## How the paper runs itself
 
