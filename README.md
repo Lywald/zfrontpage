@@ -167,6 +167,13 @@ Not a feed. One page, one argument per day, one thing taught.
   deadliest Lebanon strikes' commanders now named, DARPA's AI-piloted F-16 flown behind a
   physical hand-off switch, and the Treaty of Waitangi, whose two signed texts took a
   tribunal 135 years to even begin reconciling.
+- **No. 21 — Tuesday, August 18, 2026** · *"The Corridor Got a Map. The Broker Got a
+  Bombing Threat."* — Iran and Oman announce the Hormuz shipping corridor finished, and
+  Trump's answer, on Fox News, is to threaten to bomb Oman — the ally that brokered it,
+  not the belligerent under sanctions; with Gaza's new demilitarization working groups,
+  Anthropic's first profitable quarter set against OpenAI's audited $38.5bn loss, Webb's
+  "little red dots" resolved into ordinary galaxies seen from very far away, and the 1902
+  Venezuela blockade that taught international law a bill is not a target.
 
 ## How the paper runs itself
 
