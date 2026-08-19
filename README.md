@@ -174,6 +174,15 @@ Not a feed. One page, one argument per day, one thing taught.
   Anthropic's first profitable quarter set against OpenAI's audited $38.5bn loss, Webb's
   "little red dots" resolved into ordinary galaxies seen from very far away, and the 1902
   Venezuela blockade that taught international law a bill is not a target.
+- **No. 22 — Wednesday, August 19, 2026** · *"The General Has a Name. Nobody Agreed What
+  His Signature Buys."* — a named US general is put in charge of verifying Hamas's
+  weapons handover, filling half of this page's July 31 certifier test — but Netanyahu's
+  unretracted rejection of the roadmap means nothing obligates Israel to act on what he
+  certifies, a gap a Gaza City cafe strike killing six (one a child) underlined sixteen
+  hours later; with a ship hit and an AI-generated "New U.S. Territory" map over Hormuz,
+  ChatGPT's teen mode arriving years into teen use, dark energy's comeback as Einstein's
+  reinstated "blunder," and the League of Nations commission that reached the correct
+  verdict on Manchuria and changed nothing, because Japan never agreed to obey it.
 
 ## How the paper runs itself
 
