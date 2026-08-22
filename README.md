@@ -183,6 +183,14 @@ Not a feed. One page, one argument per day, one thing taught.
   ChatGPT's teen mode arriving years into teen use, dark energy's comeback as Einstein's
   reinstated "blunder," and the League of Nations commission that reached the correct
   verdict on Manchuria and changed nothing, because Japan never agreed to obey it.
+- **No. 23 — Saturday, August 22, 2026** · *"The Toll Stopped Being Negotiated. It
+  Started Being Enforced."* — hours after a 60-day Hormuz negotiating window lapsed, an
+  unidentified projectile killed a chief engineer and Iran seized its first tanker since
+  June, both tied to a fee this page has tracked since July 30; Washington answered with
+  a promised economic siege, not a negotiated toll; with Israeli generals warning of a
+  West Bank "eruption" the day before two Palestinians were killed, open-source AI agents
+  that ran Taiwan's government for four days, a 40-year nuclear-physics puzzle solved,
+  and the XYZ Affair's tribute-by-seizure, settled on paper in 1800 and paid out until 1915.
 
 ## How the paper runs itself
 
